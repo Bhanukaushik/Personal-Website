@@ -1,0 +1,130 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "I craft user-friendly, visually appealing interfaces that create seamless and engaging experiences. My focus is on delivering intuitive designs that make digital interaction effortless and enjoyable."
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "I build secure and scalable backend systems, ensuring smooth, efficient performance. My aim is to provide the solid foundation that supports seamless user experiences and optimal functionality."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "AI/ML",
+      "description": "I leverage AI and ML to transform data into intelligent solutions that automate tasks, solve complex problems, and evolve systems for smarter outcomes."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Soft Skills",
+      "description": "My strong communication and leadership skills help me collaborate effectively, motivate teams, and drive projects forward. I value clarity, active listening, and fostering positive relationships in every setting."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image-1.png",
+      "title": "FoodMunch",
+      "description": "Responsive food catalog website with seamless navigation and product videos.",
+      "link": "https://foodmunch1194.ccbp.tech"
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-4.png",
+      "title": "Job Search",
+      "description": "Comprehensive job search platform with React, JWT authentication, and routing.",
+      "link": "https://nxtJobSearch.ccbp.tech"
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "Todo App",
+      "description": "A task management app built with React, Redux, CSS animations.",
+      "link": "https://bhanukaushik.github.io/TodoApp/"
+    },
+    {
+      "id": "4",
+      "src": "./img/placeholder-image-3.png",
+      "title": "NxtTrendz",
+      "description": "A replica of an e-commerce site with shopping features.",
+      "link": "https://trendzbazaar.ccbp.tech"
+    },
+    {
+      "id": "5",
+      "src": "./img/placeholder-image-7.png",
+      "title": "Holidays Site",
+      "description": "A website offering travel packages, booking, and customer services",
+      "link": "https://bhanukaushik.github.io/Gogoga-Website/"
+    },
+    {
+      "id": "6",
+      "src": "./img/placeholder-image-6.png",
+      "title": "Grocery Store",
+      "description": "An full stack online platform for browsing and purchasing grocery items.",
+      "link": "https://github.com/Bhanukaushik/GroceryStore.git"
+    },
+    {
+      "id": "7",
+      "src": "./img/placeholder-image-8.png",
+      "title": "Book Recommendation System",
+      "description": "A machine learning-based system suggesting books based on preferences.",
+      "link": "https://github.com/Bhanukaushik/BookRecommendationSystem.git"
+    },
+    {
+      "id": "8",
+      "src": "./img/placeholder-image-5.png",
+      "title": "Medical Image Analysis",
+      "description": "A project using deep learning to analyze and interpret medical images.",
+      "link": "https://github.com/ShashankByalla/Medical-Image-Analysis.git"
+    },
+    {
+      "id": "9",
+      "src": "./img/placeholder-image-9.png",
+      "title": "Meeting room",
+      "description": "A task management app built with React, Redux, CSS animations.",
+      "link": "https://github.com/Bhanukaushik/meeting_room.git"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ],
+  "skill" :[
+  { "id": "1", "src": "./img/html.png", "title": "HTML" },
+  { "id": "2", "src": "./img/css.png", "title": "CSS" },
+  { "id": "3","src": "./img/js.png", "title": "JavaScript" },
+  { "id": "4", "src": "./img/react.png", "title": "React" },
+  { "id": "5", "src": "./img/bootstrap.png", "title": "Bootstrap" },
+  { "id": "6", "src": "./img/node.png", "title": "Node Js" },
+  { "id": "7", "src": "./img/python.png", "title": "Python" },
+  { "id": "8", "src": "./img/sql.png", "title": "SQL" },
+  { "id": "9", "src": "./img/mongo.png", "title": "MongoDB" }
+]
+}
