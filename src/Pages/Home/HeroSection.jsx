@@ -15,7 +15,7 @@ export default function HeroSection() {
           </p>
         </div>
         <a
-          href="/Bhanu_resume.pdf"
+          href="/BhanuKaushik_Resume.pdf"
           download="Bhanu_Kaushik_Reddy_Palagiri_Resume.pdf"
           className="btn btn-primary"
         >
