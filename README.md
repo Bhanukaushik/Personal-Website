@@ -82,7 +82,7 @@ Follow these instructions to run the project locally:
 
 
 ## **Live Demo**
-[View Live Website]([https://bhanu-kaushik-portfolio.vercel.app/])
+[View Live Website](https://bhanu-kaushik-portfolio.vercel.app/)
 
 ---
 
