@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-scroll"; // For smooth scrolling within the page
+import { Link as RouterLink } from "react-router-dom"; // React Router Link for navigation
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -12,10 +13,11 @@ function Navbar() {
     setNavActive(false);
   };
 
+  // Close the menu on window resize (on smaller screens)
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu;
+        closeMenu();
       }
     };
 
@@ -28,7 +30,7 @@ function Navbar() {
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu;
+      closeMenu();
     }
   }, []);
 
@@ -91,6 +93,25 @@ function Navbar() {
           </li>
         </ul>
       </div>
+
+      {/* Add Login/Signup Links */}
+      <div className="auth-links">
+        <RouterLink
+          to="/login" // Adjust this path based on your route configuration
+          className="btn btn-outline-primary"
+          onClick={closeMenu}
+        >
+          Login
+        </RouterLink>
+        <RouterLink
+          to="/signup" // Adjust this path based on your route configuration
+          className="btn btn-outline-primary"
+          onClick={closeMenu}
+        >
+          Sign Up
+        </RouterLink>
+      </div>
+
       <Link
         onClick={closeMenu}
         activeClass="navbar--active-content"
