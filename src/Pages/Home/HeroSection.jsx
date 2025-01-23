@@ -15,8 +15,7 @@ export default function HeroSection() {
           </p>
         </div>
         <a
-          href="/BhanuKaushik_Resume.pdf"
-          download="Bhanu_Kaushik_Reddy_Palagiri_Resume.pdf"
+        onClick={() => window.open('/BhanuKaushik_Resume.pdf', '_blank')}
           className="btn btn-primary"
         >
           My Resume
